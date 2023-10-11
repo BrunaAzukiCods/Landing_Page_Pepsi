@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link href="./styles.css" rel="stylesheet" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <title>Pepsi</title>
+  </head>
+
+  <body>
+      <div class="duo-background">
+          <div class="first-background"></div>
+          <div class="second-background"></div>
+      </div>
+
+    <header>
+      
+      <div class="div-img-logo">
+        <img src="./assets/logo-pepsi.png" alt="logo-pepsi" class="logo-image" />     
+      </div>
+      
+      <div class="menu">
+            <a class="home">Início</a>
+            <a class="products">Produtos</a>
+            <a class="news">Novidades</a>
+            <a class="about">Sobre</a>
+            <a class="contacts">Contato</a>
+      </div>
+   
+    </header>
+    
+    <main>
+      
+      <div class="container-left">
+        
+        <h2>O QUE EU QUERO É</h2>
+        
+        <h1>PEPSI!</h1>
+        
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ex
+          blanditiis, similique earum commodi quo molestiae. Minima eius
+          adipisci doloremque quod itaque vero pariatur incidunt, ad, labore
+          expedita, et dolor?
+        </p>
+        
+        <button class="button-products">VER TODOS OS PRODUTOS</button>
+      
+      </div>
+      
+      <div class="container-right">
+        
+        <img src="./assets/pepsi.png" alt="pepsi-lata" class="pepsi-lata-image" />
+      
+      </div>
+    
+    </main>
+  
+    <script>
+      const body = document.body;
+      const darkModeToggle = document.createElement("button");
+      darkModeToggle.textContent = "Dark";
+      darkModeToggle.classList.add("dark-mode-button");
+    
+      darkModeToggle.addEventListener("click", () => {
+        body.classList.toggle("dark-mode");
+      });
+    
+      document.querySelector("header").appendChild(darkModeToggle);
+    </script>
+
+  </body>
+
+  </html>

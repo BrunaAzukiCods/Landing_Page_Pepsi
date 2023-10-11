@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.duo-background {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.first-background {
+    background-color: #0062be;
+    width: 50%;
+    height: 987px;
+}
+
+.second-background {
+    background-color: #ffffff;
+    width: 50%;
+    height: 987px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0 28px;
+}
+
+.logo-image{
+    margin: 15px;
+}
+
+.menu{
+    font-size: 20px;
+    color: #0062be;
+    font-weight: bold; 
+    margin: 0px 70px;  
+}
+
+.home{
+    margin-left: 10px;
+}
+
+.products{
+    margin-left: 10px;
+}
+
+.news{
+    margin-left: 10px
+}
+
+.about{
+    margin-left: 10px;
+}
+
+.contacts{
+    margin-left: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 89px;
+    justify-content: space-around;
+}
+
+.container-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 60px;
+    color: #FFFFFF;
+    font-weight: 900;
+    
+}
+
+h1 {
+    font-size: 95px;
+    color: #FFFFFF;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-weight: 900;
+}
+
+p {
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 22px;
+    color: #ffffff;
+    width: 515px;
+    margin-bottom: 35px;
+}
+
+.button-products {
+    background: #FFFFFF;
+    border-radius: 41px;
+    border: none;
+    width: 252px;
+    height: 54px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #0062be;
+}
+
+.container-right{
+    display: flex;
+    padding: 95px;
+}
+
+/* Estilos para o segundo plano no modo escuro */
+.dark-mode .second-background {
+    background-color: #252525; /* Altere a cor de fundo de acordo com o seu tema escuro */
+    color: #fff; /* Altere a cor do texto, se necessário, para que seja legível no fundo escuro */
+  }
+  
+  .dark-mode-button {
+    background-color: #0062be;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 13px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para o botão no modo escuro */
+  .dark-mode .dark-mode-button {
+    background-color: #ffffff;
+    color: #181818;
+    padding: 10px 20px;
+    font-size: 13px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  /* Estilo das âncoras no modo escuro */
+.dark-mode .menu a  {
+    color: #fff; /* Altere a cor do texto para o modo escuro */
+  }
+  
+  /* Estilo das âncoras no modo escuro */
+.dark-mode .container-left h2{
+    color: #181818; 
+    border: none;/* Altere a cor do texto para o modo escuro */
+  }
+  .dark-mode .container-left h1{
+    color: #181818; 
+    border: none;/* Altere a cor do texto para o modo escuro */
+  }
+
+  .dark-mode .container-left p{
+    color: #181818; 
+    border: none;/* Altere a cor do texto para o modo escuro */
+  }
+
+  .dark-mode .container-left button {
+    color: #ffffff; 
+    background-color: #181818;/* Altere a cor do texto para o modo escuro */
+  }
